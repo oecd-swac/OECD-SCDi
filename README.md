@@ -1,6 +1,6 @@
 <pre>
 <p float="left">
-<img src="figs/swac-oecd.png" alt="SWAC logo" align="left" width="250"/>       
+<img src="figs/swac-oecd.png" alt="SWAC logo" align="left" width="300"/>       
 </p>
 </pre>
 
