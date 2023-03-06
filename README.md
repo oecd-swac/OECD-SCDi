@@ -1,7 +1,7 @@
 <pre>
 <p float="left">
 <img src="figs/swac-oecd.png" alt="SWAC logo" align="left" width="400"/>
-<img src="figs/Sahel_logoSQ-1-300x300-4.png" alt="Sahel Research Group logo" align="right" width="300"/>    
+<img src="figs/Sahel_logoSQ-1-300x300-4.png" alt="Sahel Research Group logo" align="right" width="200"/>    
 </p>
 </pre>
 
