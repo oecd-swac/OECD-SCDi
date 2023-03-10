@@ -1,6 +1,6 @@
 
 
-<p vertical-align="middle">
+<p float="left" vertical-align="middle">
 <img src="figs/swac-oecd.png" alt="SWAC logo" width="200" vertical-align="middle" align="left"/>
 <img src="figs/SRG-Official-Secondary-Logo.png" alt="Sahel Research Group logo" width="200" vertical-align="middle" align="center"/>  
 <img src="figs/ANL-logo-blue.png" alt="AFrican Networks Lab logo" width="100" vertical-align="middle" align="right"/>    
