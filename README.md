@@ -1,8 +1,8 @@
 <pre>
 <p float="left">
-<img src="figs/swac-oecd.png" alt="SWAC logo" align="left" vertical-align="middle" width="300"/>
-<img src="figs/Sahel_logoSQ-1-300x300-4.png" alt="Sahel Research Group logo" align="center" vertical-align="middle" width="150"/>  
-<img src="figs/ANL-logo-blue.png" alt="AFrican Networks Lab logo" align="right" vertical-align="middle" width="150"/>    
+<img src="figs/swac-oecd.png" alt="SWAC logo" align="left" vertical-align="text-top" width="300"/>
+<img src="figs/Sahel_logoSQ-1-300x300-4.png" alt="Sahel Research Group logo" align="text-top" vertical-align="middle" width="150"/>  
+<img src="figs/ANL-logo-blue.png" alt="AFrican Networks Lab logo" align="right" vertical-align="text-top" width="150"/>    
 </p>
 </pre>
 
