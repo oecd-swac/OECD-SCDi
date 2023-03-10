@@ -1,6 +1,6 @@
 <pre>
 <p float="left">
-<img src="figs/swac-oecd.png" alt="SWAC logo" align="left" width="400" vertical-align="middle"/>
+<img src="figs/swac-oecd.png" alt="SWAC logo" align="left" width="300" vertical-align="middle"/>
 <img src="figs/Sahel_logoSQ-1-300x300-4.png" alt="Sahel Research Group logo" align="right" vertical-align="middle" width="200"/>    
 </p>
 </pre>
