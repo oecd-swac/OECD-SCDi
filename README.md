@@ -1,7 +1,7 @@
 
-<p float="left">
+<p align="center" vertical-align="middle">
 <img src="figs/swac-oecd.png" alt="SWAC logo" vertical-align="middle" width="200"/>
-<img src="figs/SRG-Official-Secondary-Logo.tif" alt="Sahel Research Group logo" vertical-align="middle" width="200" margin-left="50px"/>  
+<img src="figs/SRG-Official-Secondary-Logo.tif" alt="Sahel Research Group logo" vertical-align="middle" width="200" margin-left="100px" />  
 <img src="figs/ANL-logo-blue.png" alt="AFrican Networks Lab logo" vertical-align="middle" width="100" margin-left="50px"/>    
 </p>
 
