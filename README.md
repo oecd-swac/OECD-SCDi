@@ -1,11 +1,11 @@
 
-<pre>
-<p align="center">
+
+<p vertical-align="middle">
 <img src="figs/swac-oecd.png" alt="SWAC logo" width="200" vertical-align="middle"/>
 <img src="figs/SRG-Official-Secondary-Logo.tif" alt="Sahel Research Group logo" width="200" vertical-align="middle"/>  
 <img src="figs/ANL-logo-blue.png" alt="AFrican Networks Lab logo" width="100" vertical-align="middle"/>    
 </p>
-</pre>
+
 
 
 # Spatial Conflict Dynamics indicator - SCDi
