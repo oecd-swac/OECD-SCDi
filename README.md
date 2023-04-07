@@ -14,7 +14,7 @@
 
 __maintainer__ = [SWAC OECD](https://www.oecd.org/swac/)
 
-__Corresponding author__ = [Dr. Olivier Walter](https://geog.ufl.edu/faculty/walther/), owalther@ufl.edu, University of Florida
+__Corresponding author__ = [Dr. Olivier Walther](https://geog.ufl.edu/faculty/walther/), owalther@ufl.edu, University of Florida
 
 
 ## Description:
