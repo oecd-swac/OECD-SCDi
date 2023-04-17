@@ -29,8 +29,6 @@ points.unproj <- st_as_sf(pointsCSV, coords = coords, crs = crs)
 ### Prepare polygons data
 # If you have a set of polygons already, read them in
 polygons.unproj <- st_read(file.choose())
-# Add a unique identifier (ID) column
-polygons.unproj$ID <- 1:nrow(polygons.unproj)
 
 # Project data (CHANGE ME)
 # Choose an appropriate projection that preserves distance
@@ -48,12 +46,12 @@ polygons <- st_transform(polygons.unproj, crs = crsString)
 # polygons <- st_make_grid(points, cellsize = c(50000,50000)) %>% st_as_sf()
 # You can clip the polygon grid to only those cells that contain points using this:
 # polygons <- st_filter(polygons,points)
-# Then add the unique identifier (ID) column
-# polygons$ID <- 1:nrow(polygons)
+
+# Add a unique identifier (ID) column
+polygons$ID <- 1:nrow(polygons)
 
 # Remove unnecessary objects from memory to speed computation
 rm(pointsCSV,points.unproj,polygons.unproj,coords,crs,crsString)
-
 
 ###### Define function ######
 # Calculate the SCDi and related metrics
@@ -65,7 +63,7 @@ rm(pointsCSV,points.unproj,polygons.unproj,coords,crs,crsString)
 # Output DF can be merged with the polygons shapes on the "ID" field created above
 
 # (CHANGE ME) If your points data has a column for fatalities
-# for that event, un-comment the three lines summing fatalities per polygon (lines 75, 83, and 96)
+# for that event, un-comment the three lines summing fatalities per polygon (lines 73, 81, and 94)
 calcSCDi <- function(points, polygons, densityCutoff) {
   
   # Set up output columns
