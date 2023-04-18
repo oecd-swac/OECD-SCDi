@@ -34,4 +34,16 @@ Introducing the Spatial Conflict Dynamics Indicator of Political Violence,
 Terrorism and Political Violence 35 (3): 533-552. DOI: 10.1080/09546553.2021.1957846
 
 ## Bibtex
- @article{walther_radil_russell_trémolières_2021, title={Introducing the spatial conflict dynamics indicator of Political Violence}, volume={35}, DOI={10.1080/09546553.2021.1957846}, number={3}, journal={Terrorism and Political Violence}, author={Walther, Olivier J. and Radil, Steven M. and Russell, David G. and Trémolières, Marie}, year={2021}, pages={533–552}} 
+@article{doi:10.1080/09546553.2021.1957846,
+  author = {Olivier J. Walther and Steven M. Radil and David G. Russell and Marie Trémolières},
+  title = {Introducing the Spatial Conflict Dynamics Indicator of Political Violence},
+  journal = {Terrorism and Political Violence},
+  volume = {35},
+  number = {3},
+  pages = {533-552},
+  year  = {2023},
+  publisher = {Routledge},
+  doi = {10.1080/09546553.2021.1957846},
+  URL = {https://doi.org/10.1080/09546553.2021.1957846},
+  eprint = {https://doi.org/10.1080/09546553.2021.1957846}
+}
