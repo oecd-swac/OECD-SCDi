@@ -1,5 +1,9 @@
 # Data
 
+__maintainer__ = [SWAC OECD](https://www.oecd.org/swac/)
+
+__Corresponding author__ = [Dr. Olivier Walther](https://geog.ufl.edu/faculty/walther/), owalther@ufl.edu, University of Florida
+
 This directory contains the outputs of the SCDi calculated in the West Africa region for the years 1997 to 2022. 
 
 If you use these datasets in your work, please cite the dataset as indicated below.
@@ -9,7 +13,7 @@ If you use these datasets in your work, please cite the dataset as indicated bel
 
 The SCDi was developed by the Sahel and West Africa Club (SWAC/OECD) in co-operation with the University of Florida’s Sahel Research Group.
 
-The SCDi maps the temporal and spatial evolution of political violence in North and West Africa since 1997. The SCDi divides the region into 6,540 cells (each cell is 50 by 50 kilometres) and leverages over 57,000 violent events from the Armed Conflict Location & Event Data Project (ACLED) across 21 countries. It is possible to classify conflict types by their intensity, which measures the amount of violence, and concentration which assesses how violent events are distributed spatially across a region.
+The SCDi maps the temporal and spatial evolution of political violence in North and West Africa since 1997. The SCDi divides the region into 6,540 cells (each cell is 50 by 50 kilometres) and leverages over 57,000 violent events from the [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/data-export-tool/) across 21 countries. It is possible to classify conflict types by their intensity, which measures the amount of violence, and concentration which assesses how violent events are distributed spatially across a region.
 
 The SCDi identifies four types of conflict: clustered high-intensity, dispersed high-intensity, clustered low-intensity and dispersed low-intensity.
 
