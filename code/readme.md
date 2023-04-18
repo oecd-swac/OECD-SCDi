@@ -5,6 +5,8 @@ The main function defined in this R script take in the user's point data and a s
 
 This script also includes a function to perform this analysis over a user-defined set of  time intervals.
 
+Sections that need to be edited by the user are marked with the text "(CHANGE ME)" in comments.
+
 ## Spatial Conflict Dynamics indicator - SCDi
 
 __maintainer__ = [SWAC OECD](https://www.oecd.org/swac/)
