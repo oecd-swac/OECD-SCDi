@@ -1,4 +1,4 @@
-# Calculate the SCDindicator
+# Calculate the Spatial Conflict Dynamics indicator
 # Created by David Russell, University of Florida African Networks Lab
 # April 2023
 
@@ -6,6 +6,21 @@
 # Olivier J. Walther, Steven M. Radil, David G. Russell & Marie Trémolières (2023) 
 # Introducing the Spatial Conflict Dynamics Indicator of Political Violence, 
 # Terrorism and Political Violence 35 (3): 533-552. DOI: 10.1080/09546553.2021.1957846
+
+# Information about the SCDi
+
+# The SCDi was developed by the Sahel and West Africa Club (SWAC/OECD) 
+# in co-operation with the University of Florida’s Sahel Research Group.
+# The SCDi maps the temporal and spatial evolution of political violence 
+# in North and West Africa since 1997. 
+# The SCDi divides the region into 6,540 cells (each cell is 50 by 50 kilometres) 
+# and leverages over 57,000 violent events from 
+# the Armed Conflict Location & Event Data Project 
+# (ACLED) across 21 countries. It is possible to classify conflict types 
+# by their intensity, which measures the amount of violence, and concentration 
+# The SCDi identifies four types of conflict: 
+# clustered high-intensity, dispersed high-intensity, 
+# clustered low-intensity and dispersed low-intensity.
 
 ###### Read in libraries ######
 library(sf)
@@ -30,9 +45,11 @@ points.unproj <- st_as_sf(pointsCSV, coords = coords, crs = crs)
 # If you have a set of polygons already, read them in
 polygons.unproj <- st_read(file.choose())
 
+
 # Project data (CHANGE ME)
 # Choose an appropriate projection that preserves distance
 # We use Africa Lambert Conformal Conic for analysis in North and West Africa
+# Other projections might be more appropriate for your study area
 crsString <- "+proj=lcc +lat_1=20 +lat_2=-23 
               +lat_0=0 +lon_0=25 +x_0=0 
               +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
@@ -52,6 +69,7 @@ polygons$ID <- 1:nrow(polygons)
 
 # Remove unnecessary objects from memory to speed computation
 rm(pointsCSV,points.unproj,polygons.unproj,coords,crs,crsString)
+
 
 ###### Define function ######
 # Calculate the SCDi and related metrics
@@ -86,6 +104,10 @@ calcSCDi <- function(points, polygons, densityCutoff) {
         cellNNInum <- 0
       }
       NN_Index[i] <- cellNNInum
+      # This next line (112) converts the units of the area measurement
+      # From (Africa Lambert Conformal Conic)
+      # from square meters to square kilometers
+      # Different map projections will have different units
       A <- st_area(cell) / 1000000
       Density[i] <- (nrow(cellPoints) / A)
     }
