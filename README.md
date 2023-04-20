@@ -40,7 +40,7 @@ analysis of violence across the West Africa region.
 
 ## Citation
 
-### Spatial Conflict Dynamics Indicator papers citation:
+### Spatial Conflict Dynamics Indicator papers:
 Olivier J. Walther, Steven M. Radil, David G. Russell & Marie Trémolières (2023)
 Introducing the Spatial Conflict Dynamics Indicator of Political Violence,
 Terrorism and Political Violence 35 (3): 533-552. DOI: 10.1080/09546553.2021.1957846
