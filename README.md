@@ -2,8 +2,8 @@
 
 <p float="left" align="center" valign="middle">
 <img src="figs/swac-oecd.png" alt="SWAC logo" width="200" vertical-align="middle" align="left"/>
-<img src="figs/SRG-Official-Secondary-Logo.png" alt="Sahel Research Group logo" width="200" vertical-align="middle" />  
-<img src="figs/ANL-logo-blue.png" alt="AFrican Networks Lab logo" width="100" vertical-align="middle" align="right"/>    
+<img src="figs/SRG-Official-Secondary-Logo.png" alt="Sahel Research Group logo" width="200" vertical-align="right"/>  
+   
 </p>
 <br>
 <br>
@@ -39,6 +39,19 @@ analysis of violence across the West Africa region.
 
 
 ## Citation
+### General citation:
+OECD/SWAC (2023), Mapping Territorial Transformations in Africa (MAPTA), 
+https://mapping-africa-transformations.org/security (accessed on DD-MM-YYYY).
+
+OCDE/CSAO (2023), Cartographier les transformations territoriales en Afrique (CARTA), 
+https://mapping-africa-transformations.org/fr (consulté le JJ-MM-AAAA).
+ 
+### Specific content citation:
+OECD/SWAC (2023), “Security”, Mapping Territorial Transformations in Africa (MAPTA), 
+https://mapping-africa-transformations.org/climate (accessed on DD-MM-YYYY).
+
+
+### Spatial Conflict Dynamics Indicator papers citation:
 Olivier J. Walther, Steven M. Radil, David G. Russell & Marie Trémolières (2023)
 Introducing the Spatial Conflict Dynamics Indicator of Political Violence,
 Terrorism and Political Violence 35 (3): 533-552. DOI: 10.1080/09546553.2021.1957846
@@ -46,10 +59,10 @@ Terrorism and Political Violence 35 (3): 533-552. DOI: 10.1080/09546553.2021.195
 OECD/SWAC (2023), Urbanisation and Conflicts in North and West Africa, 
 West African Studies, OECD Publishing, Paris, https://doi.org/10.1787/3fc68183-en.
 
+
 ## Bibtex
 
 ```tex
-
 @article{doi:10.1080/09546553.2021.1957846,
   author = {Olivier J. Walther and Steven M. Radil and David G. Russell and Marie Trémolières},
   title = {Introducing the Spatial Conflict Dynamics Indicator of Political Violence},
