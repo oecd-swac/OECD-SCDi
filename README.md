@@ -39,17 +39,6 @@ analysis of violence across the West Africa region.
 
 
 ## Citation
-### General citation:
-OECD/SWAC (2023), Mapping Territorial Transformations in Africa (MAPTA), 
-https://mapping-africa-transformations.org/security (accessed on DD-MM-YYYY).
-
-OCDE/CSAO (2023), Cartographier les transformations territoriales en Afrique (CARTA), 
-https://mapping-africa-transformations.org/fr (consulté le JJ-MM-AAAA).
- 
-### Specific content citation:
-OECD/SWAC (2023), “Security”, Mapping Territorial Transformations in Africa (MAPTA), 
-https://mapping-africa-transformations.org/climate (accessed on DD-MM-YYYY).
-
 
 ### Spatial Conflict Dynamics Indicator papers citation:
 Olivier J. Walther, Steven M. Radil, David G. Russell & Marie Trémolières (2023)
@@ -59,6 +48,16 @@ Terrorism and Political Violence 35 (3): 533-552. DOI: 10.1080/09546553.2021.195
 OECD/SWAC (2023), Urbanisation and Conflicts in North and West Africa, 
 West African Studies, OECD Publishing, Paris, https://doi.org/10.1787/3fc68183-en.
 
+### MAPTA's general citation:
+OECD/SWAC (2023), Mapping Territorial Transformations in Africa (MAPTA), 
+https://mapping-africa-transformations.org/security (accessed on DD-MM-YYYY).
+
+OCDE/CSAO (2023), Cartographier les transformations territoriales en Afrique (CARTA), 
+https://mapping-africa-transformations.org/fr (consulté le JJ-MM-AAAA).
+ 
+### MAPTA's specific content citation:
+OECD/SWAC (2023), “Security”, Mapping Territorial Transformations in Africa (MAPTA), 
+https://mapping-africa-transformations.org/climate (accessed on DD-MM-YYYY).
 
 ## Bibtex
 
