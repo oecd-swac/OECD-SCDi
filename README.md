@@ -31,7 +31,6 @@ dispersed high-intensity, clustered low-intensity and dispersed low-intensity.
 
 The SCDi was developed by the Sahel and West Africa Club (SWAC/OECD) 
 in co-operation with the University of Florida’s [Sahel Research Group](https://sahelresearch.africa.ufl.edu). 
-
 The SCDi is used in the Security section of the SWAC's Mapping Territorial Transformations in Africa (MAPTA) web
 platform (https://mapping-africa-transformations.org/security/) and provides a framework for the spatiotemporal 
 analysis of violence across the West Africa region.
