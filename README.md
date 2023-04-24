@@ -50,9 +50,8 @@ Olivier J. Walther, Steven M. Radil, David G. Russell & Marie Trémolières (202
 @misc{scdi,
   author = {OECD/SWAC},
   title = {{Spatial Conflict Dynamics indicator (SCDi)}},
-  howpublished = "\url{https://mapping-africa-transformations.org}",
-  year = {2023}, 
-  note = "[Online; accessed DD-MM-YYYY]"
+  URL = {https://mapping-africa-transformations.org},
+  year = {2023 (accessed on DD-MM-YYYY)}
 }
 @article{doi:10.1080/09546553.2021.1957846,
   author = {Olivier J. Walther and Steven M. Radil and David G. Russell and Marie Trémolières},
