@@ -47,6 +47,13 @@ Olivier J. Walther, Steven M. Radil, David G. Russell & Marie Trémolières (202
 ## Bibtex
 
 ```tex
+@misc{scdi,
+  author = {OECD/SWAC},
+  title = {{Spatial Conflict Dynamics indicator (SCDi)}},
+  howpublished = "\url{https://mapping-africa-transformations.org}",
+  year = {2023}, 
+  note = "[Online; accessed DD-MM-YYYY]"
+}
 @article{doi:10.1080/09546553.2021.1957846,
   author = {Olivier J. Walther and Steven M. Radil and David G. Russell and Marie Trémolières},
   title = {Introducing the Spatial Conflict Dynamics Indicator of Political Violence},
@@ -59,19 +66,5 @@ Olivier J. Walther, Steven M. Radil, David G. Russell & Marie Trémolières (202
   doi = {10.1080/09546553.2021.1957846},
   URL = {https://doi.org/10.1080/09546553.2021.1957846},
   eprint = {https://doi.org/10.1080/09546553.2021.1957846}
-}
-
-@book{oecdUrbanisationConflictsNorth2023,
-	series = {West {African} {Studies}},
-	title = {Urbanisation and {Conflicts} in {North} and {West} {Africa}},
-	isbn = {978-92-64-38388-3 978-92-64-81710-4 978-92-64-56231-8 978-92-64-44884-1},
-	url = {https://www.oecd-ilibrary.org/development/urbanisation-and-conflicts-in-north-and-west-africa_3fc68183-en},
-	language = {en},
-	urldate = {2023-03-28},
-	publisher = {OECD},
-	author = {{OECD/SWAC}},
-	month = mar,
-	year = {2023},
-	doi = {10.1787/3fc68183-en},
 }
 ```
