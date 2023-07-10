@@ -4,7 +4,7 @@ __maintainer__ = [SWAC OECD](https://www.oecd.org/swac/)
 
 __Corresponding author__ = [Dr. Olivier Walther](https://geog.ufl.edu/faculty/walther/), owalther@ufl.edu, University of Florida
 
-This directory contains the outputs of the SCDi calculated in the West Africa region for the years 1997 to 2022. 
+This directory contains the outputs of the SCDi calculated in the West Africa region for the years 1997 (January) to 2023 (June). 
 
 If you use these datasets in your work, please cite the dataset as indicated below.
 
