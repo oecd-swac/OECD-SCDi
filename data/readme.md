@@ -23,14 +23,20 @@ The SCDi identifies four types of conflict: clustered high-intensity, dispersed 
 * The shapfile attribute data is structured like this:
   * The usual shapefile columns with a unique ID, shape length, and area
   * 7 columns for each year (from 1997 - 2022). As follows, using 1997 as an example:
-    * eventCount1997: the number of ACLED events in that cell in 1997
-    * fatalities1997: the number of fatalities in the cell in 1997 (from ACLED data)
-    * Density1997: the density of ACLED events in the cell in 1997
-    * NN_Index1997: the Average Nearest Neighbor index for the cell's 1997 ACLED event points in space
-    * den_class1997: whether the cell's point density in 1997 was high or low
-    * NN_class1997: whether the ANNi for that cell's points in 1997 was clustered or dispersed
-    * SCDI1997: the SCDi classification for that cell in 1997 (the concatenation of the den_class1997 and NN_class1997 columns)
+    * `eventCount1997`: the number of ACLED events in that cell in 1997
+    * `fatalities1997`: the number of fatalities in the cell in 1997 (from ACLED data)
+    * `Density1997`: the density of ACLED events in the cell in 1997
+    * `NN_Index1997`: the Average Nearest Neighbor index for the cell's 1997 ACLED event points in space
+    * `den_class1997`: whether the cell's point density in 1997 was high or low
+    * `NN_class1997`: whether the ANNi for that cell's points in 1997 was clustered or dispersed
+    * `SCDI1997`: the SCDi classification for that cell in 1997 (the concatenation of the den_class1997 and NN_class1997 columns)
   * A "countries" column listing the countries that the cell touches
+
+The dataset `SCDiEnd2023_GEO.csv` in CSV format contain the same information as the shapefile, with the geographic information (coordinates) stored in Well Known Text format in the column `WKT`.
+
+### Coordinate Reference System (CRS)
+EPSG:4326 WGS84
+
 
 ## Citation
 Olivier J. Walther, Steven M. Radil, David G. Russell & Marie Trémolières (2023)
