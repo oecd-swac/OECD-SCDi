@@ -30,7 +30,7 @@ The SCDi identifies four types of conflict: clustered high-intensity, dispersed 
     * `den_class1997`: whether the cell's point density in 1997 was high or low
     * `NN_class1997`: whether the ANNi for that cell's points in 1997 was clustered or dispersed
     * `SCDI1997`: the SCDi classification for that cell in 1997 (the concatenation of the den_class1997 and NN_class1997 columns)
-  * A "countries" column listing the countries that the cell touches
+  * A `countries` column listing the countries that the cell touches
 
 The dataset `SCDiEnd2023_GEO.csv` in CSV format contain the same information as the shapefile, with the geographic information (coordinates) stored in Well Known Text format in the column `WKT`.
 
