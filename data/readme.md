@@ -35,7 +35,7 @@ The SCDi identifies four types of conflict: clustered high-intensity, dispersed 
 The dataset `SCDiEnd2023_GEO.csv` in CSV format contain the same information as the shapefile, with the geographic information (coordinates) stored in Well Known Text format in the column `WKT`.
 
 ### Coordinate Reference System (CRS)
-The dataset `SCDiEnd2023.shp .dbf .prj .shp .shp` is stored in projected coordinates using ESRI:102024 - Africa Lambert Conformal Conic.
+The dataset `SCDiEnd2023.shp *.dbf *.prj *.shp *.shp` is stored in projected coordinates using ESRI:102024 - Africa Lambert Conformal Conic.
 The dataset `SCDiEnd2023_GEO.csv` is stored in geographic coordinates using EPSG:4326 WGS84.
 
 
